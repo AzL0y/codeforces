@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-
 /*
+PROBLEM 4A
 * Says whether weight can be split into 2 even numbers
 
 IN : weight (int w)
