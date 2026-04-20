@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdbool.h>
 
 /*
 PROBLEM 4A
