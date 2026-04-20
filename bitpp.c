@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 /*
+PROBLEM 282A
 * Calcul
 
 IN :
