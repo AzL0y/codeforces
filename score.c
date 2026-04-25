@@ -11,8 +11,6 @@ OUT :
     int x : number of contestants who advance
 */
 
-#include <stdio.h>
-
 int main() {
     int n, k, x = 0;
     scanf("%d %d", &n, &k);
