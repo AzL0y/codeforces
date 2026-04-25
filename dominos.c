@@ -11,8 +11,6 @@ OUT :
     int x : number of dominoes
 */
 
-#include <stdio.h>
-
 int main() {
     int M, N, x = 0;
     scanf("%d %d", &M, &N);
