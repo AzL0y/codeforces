@@ -18,6 +18,7 @@ int main() {
 
     uint8_t* arr = (uint8_t*)malloc(16 * sizeof(uint8_t));
     uint8_t* ccnum = (uint8_t*)malloc(16 * sizeof(uint8_t));
+	int sum = 0;
 
     if (arr == NULL || ccnum == NULL) {
         printf("Erreur d'allocation mémoire\n");
@@ -62,8 +63,11 @@ int main() {
     }
 
     for (int i = 0; i < 16; i++) {
+        sum += arr[i];
         printf("%d : %d : %d\n", i, ccnum[i], arr[i]);
     }
+    printf("Sum: %d\n", sum);
+	printf("%s\n", (sum % 10) ? "INVALID" : "VALID");
 
     free(arr);
     free(ccnum);
